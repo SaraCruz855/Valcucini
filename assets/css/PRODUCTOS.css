@@ -150,13 +150,16 @@ ul li {
     z-index: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
+/* Para pantallas de 600px o menos (móviles) */
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Para pantallas más grandes (escritorios) */
+  @media (min-width: 601px) {
+    body {
+      font-size: 18px;
+    }
+  }
